@@ -12,3 +12,6 @@ Initial Commit.  I have created the github repository for the project, and then 
 
 I ran 'npm install', creating 'package-lock.json'.  Added 'minimist' to 'package.json' dependencies.  I then created 'manifest.webmanifest' and linked it to 'index.html'.  I then repaired font-awesome cdn link.
 
+### 2020.05.09_2139
+
+I corrected canvas size of provided icons to be square at described sizes using GIMP.  I then ran 'npm audit fix' in root directory to repair any vulnerabilities.
