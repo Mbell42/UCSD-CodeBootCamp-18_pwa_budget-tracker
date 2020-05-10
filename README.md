@@ -15,3 +15,7 @@ I ran 'npm install', creating 'package-lock.json'.  Added 'minimist' to 'package
 ### 2020.05.09_2139
 
 I corrected canvas size of provided icons to be square at described sizes using GIMP.  I then ran 'npm audit fix' in root directory to repair any vulnerabilities.
+
+### 2020.05.09_2215
+
+I added 'service-worker.js' to public folder, and then added script at the end of 'index.html' to, on load, check if service-workers are supported on the current browser, and based on the response, either register the service worker or throw an error, and log in the console that offline functionality will not be available.

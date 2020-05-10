@@ -45,5 +45,15 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="index.js"></script>
+
+  <script type = "text/javascript">
+    (() => {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./service-worker.js", { scope: "/" })
+        .then(() => console.log("ServiceWorker has been successfully registered."))
+        .catch((err) => console.log("ServiceWorker registration has not failed.  This feature may not be supported.  Offline functionality is not available.", err));
+    }
+    })();
+  </script>
 </body>
 </html>
