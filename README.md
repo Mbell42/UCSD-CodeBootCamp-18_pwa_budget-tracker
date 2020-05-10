@@ -23,3 +23,7 @@ I added 'service-worker.js' to public folder, and then added script at the end o
 ### 2020.05.09_2300
 
 I completed initial pass of 'service-worker.js'.  When testing online using Google Dev Tools under the 'application' tab, the 'unable to be run offline' warning is no longer displayed.
+
+### 2020.05.09_2313
+
+I added empty file 'db.js' to public folder, and then began initial pass creating db.
